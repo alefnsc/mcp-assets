@@ -1,0 +1,61 @@
+{{!
+    This code presents an email capture form for user email submission.
+
+    It utilizes Evergage and SalesforceInteractions' sendEvent function to transmit user email and behavior data, labeled as "Newsletter Sign Up".
+
+    You can modify the event/action name as needed.
+
+    These events can help create segments or establish a Triggered Campaign for sending emails with recommended content blocks.
+
+    Requirements:
+    1) Set the content zone(s) to those defined in your Sitemap.
+
+    Customizations:
+    1) Colors and styling adjustments can be made in the CSS code.
+    2) Messaging, email input placeholder, CTA text, and error messages can be personalized to suit your requirements.
+}}
+<div
+  id="email-capture"
+  class="fnsc-email-capture"
+  data-evg-campaign-id="{{campaign}}"
+  data-evg-experience-id="{{experience}}"
+  data-evg-user-group="{{userGroup}}"
+>
+
+  <img
+    id="email-img"
+    class="fnsc-email-img"
+    type="image"
+    src="https://lh3.googleusercontent.com/drive-viewer/AITFw-wfCwoOCPDythXPTg-uJyy7mWquIfnfFQVKQSfGF8cDxOSfj6uZ6JvRNE7AGolvYuRDZxMCpHdp_NqKASitR6J7pcIDxQ=s2560"
+  />
+
+  <label id="email-label" class="fnsc-email-label">{{~msg~}}</label>
+
+  <input
+    id="email-input"
+    class="fnsc-email-input"
+    type="email"
+    name="email"
+    required
+    placeholder="{{~emailPlaceholder~}}"
+    novalidate
+    aria-label="Email"
+    aria-required="true"
+    tabindex="0"
+  />
+
+  <button
+    class="fnsc-email-submit"
+    type="submit"
+    onsubmit="validateEmail();"
+    tabindex="1"
+    type="button"
+    aria-label="Submit"
+  >
+    {{~ctaText~}}
+  </button>
+
+  <span class="fnsc-error-msg fnsc-hide">
+    {{~errorMsg~}}
+  </span>
+</div>

@@ -1,0 +1,82 @@
+/* ==========================================================================
+   Block
+========================================================================== */
+.fnsc-email-capture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  background-color: #494949;
+  padding: 10px;
+  font-family: Helvetia, sans-serif;
+  font-size: 16px;
+}
+
+.fnsc-email-img {
+  width: 2.4em;
+  margin: 0 15px;
+}
+/* ==========================================================================
+   Message
+========================================================================== */
+.fnsc-email-label {
+  color: #fefefe;
+  font-weight: 7000;
+  font-size: 18px;
+  padding: 0 15px;
+}
+/* ==========================================================================
+   Input
+========================================================================== */
+.fnsc-email-input {
+  border-radius: 5px;
+  padding: 2px 3px;
+  border: 1px solid #efefef;
+  border-radius: 25px;
+  height: 38px;
+  margin: 0 5px;
+  padding: 0 15px;
+}
+.fnsc-email-input:hover {
+  border: 2px solid #197a01;
+  box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.075);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.fnsc-email-input:focus {
+  border: none;
+  box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.075);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+/* ==========================================================================
+   Button
+========================================================================== */
+.fnsc-email-submit {
+  border: 1px solid #efefef;
+  border-radius: 25px;
+  height: 38px;
+  padding: 0 16px;
+  font-weight: 700;
+  background-color: #006e10;
+  color: #fff;
+  border-color: #197a01;
+  margin: 0 5px;
+  padding: 0 25px;
+}
+.fnsc-email-submit:hover {
+  background-color: #197a01;
+}
+
+/* ==========================================================================
+   Error Message
+========================================================================== */
+.fnsc-error-msg {
+  color: #ff0000;
+  font-size: 1rem;
+}
+.fnsc-hide {
+  visibility: hidden;
+  display: none;
+  width: 0;
+  height: 0;
+}
