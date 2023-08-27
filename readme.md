@@ -1,6 +1,6 @@
 # Marketing Cloud Personalization Assets
 
-This collection contains useful **Marketing Cloud Personalization Assets** , templates and examples, that will speed up your work!
+This collection contains useful **Marketing Cloud Personalization Assets**, templates and examples, that will speed up your work!
 
 ## Introduction
 
