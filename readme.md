@@ -34,7 +34,7 @@ Explore the following code snippets designed to enhance personalization in your 
 - **Description**: Presents an email capture form for user email submission.
 - **Folder**: [Email Capture](/templates/Email%20Capture)
 
-### Asset 21: MCP Fonseca Bank Sitemap
+### Asset 2: MCP Fonseca Bank Sitemap
 
 - **Description**: Simple Sitemap build for a bank PoC
 - **Folder**: [Email Capture](/sitemap/fonsecabank.js)
