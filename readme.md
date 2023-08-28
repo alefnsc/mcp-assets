@@ -33,7 +33,7 @@ Explore the following code snippets designed to enhance personalization in your 
 ### Asset 1: MCP Fonseca Bank Sitemap
 
 - **Description**: Simple Sitemap build for a bank PoC
-- **Folder**: [Email Capture](/sitemap/fonsecabank.js)
+- **File**: [fonsecabank.js](/sitemap/fonsecabank.js)
 
 ### Asset 2: MCP Email Capture Newsletter
 
