@@ -10,8 +10,9 @@ Marketing Cloud Personalization is a robust tool that empowers you to monitor, v
 
 - [Usage](#usage)
 - [Assets](#assets)
-- - [Asset 1: MCP Email Capture Newsletter](#asset-1-mcp-email-capture-newsletter)
-- - [Asset 2: MCP Fonseca Bank Sitemap](#asset-2-mcp-fonseca-bank-sitemap)
+- - [Asset 1: MCP Fonseca Bank Sitemap](#asset-1-mcp-fonseca-bank-sitemap)
+- - [Asset 2: MCP Email Capture Newsletter](#asset-2-mcp-email-capture-newsletter)
+
 - [Contributions](#contributions)
 - [License](#license)
 
@@ -29,15 +30,15 @@ To utilize the code snippets provided in this repository, follow these simple st
 
 Explore the following code snippets designed to enhance personalization in your Marketing Cloud dataset:
 
-### Asset 1: MCP Email Capture Newsletter
-
-- **Description**: Presents an email capture form for user email submission.
-- **Folder**: [Email Capture](/templates/Email%20Capture)
-
-### Asset 2: MCP Fonseca Bank Sitemap
+### Asset 1: MCP Fonseca Bank Sitemap
 
 - **Description**: Simple Sitemap build for a bank PoC
 - **Folder**: [Email Capture](/sitemap/fonsecabank.js)
+
+### Asset 2: MCP Email Capture Newsletter
+
+- **Description**: Presents an email capture form for user email submission.
+- **Folder**: [Email Capture](/templates/Email%20Capture)
 
 ## Contributions
 
